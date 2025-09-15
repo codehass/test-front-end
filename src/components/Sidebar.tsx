@@ -28,7 +28,7 @@ const menuItems = [
 ];
 
 function Sidebar() {
-	const [menuOpen, setMenuOpen] = useState(true);
+	const [menuOpen, setMenuOpen] = useState(false);
 	const [activeIndex, setActiveIndex] = useState(4);
 
 	function handleMenuItemClick(index: number) {

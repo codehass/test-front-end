@@ -54,7 +54,7 @@ function Sidebar() {
 			</div>
 			<div>
 				{menuOpen && (
-					<div className="absolute top-full left-0 bg-white border border-gray-300 rounded-2xl shadow-lg p-9">
+					<div className="absolute top-full left-0 bg-white border border-gray-300 rounded-2xl shadow-lg p-9 z-10">
 						<ul className="space-y-2 flex flex-col gap-4">
 							{menuItems.map((item, index) => (
 								<li

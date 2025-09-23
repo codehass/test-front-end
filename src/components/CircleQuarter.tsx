@@ -17,6 +17,7 @@ const CircleQuarter = ({ className = "", fill }: CircleQuarterProps) => (
 			aria-hidden="true"
 		>
 			<circle cx="0" cy="100" r="50" fill={fill} />
+			{/* thi is a cooent */}
 		</svg>
 	</div>
 );
